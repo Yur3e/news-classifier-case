@@ -1,0 +1,1226 @@
+{
+  "model_type": "logistic_regression",
+  "selection_mode": "auto",
+  "selection_metric": "macro_f1",
+  "total_samples": 167001,
+  "train_samples": 133600,
+  "test_samples": 33401,
+  "accuracy": 0.6871,
+  "macro_f1": 0.3649,
+  "weighted_f1": 0.6898,
+  "classification_report": {
+    "ambiente": {
+      "precision": 0.2585,
+      "recall": 0.3878,
+      "f1-score": 0.3102,
+      "support": 98.0
+    },
+    "asmais": {
+      "precision": 0.2802,
+      "recall": 0.4636,
+      "f1-score": 0.3493,
+      "support": 110.0
+    },
+    "banco-de-dados": {
+      "precision": 0.3333,
+      "recall": 0.1538,
+      "f1-score": 0.2105,
+      "support": 13.0
+    },
+    "bbc": {
+      "precision": 0.1145,
+      "recall": 0.1735,
+      "f1-score": 0.1379,
+      "support": 196.0
+    },
+    "cenarios-2017": {
+      "precision": 0.125,
+      "recall": 0.1111,
+      "f1-score": 0.1176,
+      "support": 9.0
+    },
+    "ciencia": {
+      "precision": 0.4542,
+      "recall": 0.5206,
+      "f1-score": 0.4852,
+      "support": 267.0
+    },
+    "colunas": {
+      "precision": 0.6275,
+      "recall": 0.3516,
+      "f1-score": 0.4506,
+      "support": 4318.0
+    },
+    "comida": {
+      "precision": 0.3592,
+      "recall": 0.5301,
+      "f1-score": 0.4282,
+      "support": 166.0
+    },
+    "cotidiano": {
+      "precision": 0.7647,
+      "recall": 0.7527,
+      "f1-score": 0.7587,
+      "support": 3393.0
+    },
+    "dw": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1-score": 0.0,
+      "support": 10.0
+    },
+    "educacao": {
+      "precision": 0.6112,
+      "recall": 0.8231,
+      "f1-score": 0.7015,
+      "support": 424.0
+    },
+    "empreendedorsocial": {
+      "precision": 0.378,
+      "recall": 0.5536,
+      "f1-score": 0.4493,
+      "support": 168.0
+    },
+    "equilibrioesaude": {
+      "precision": 0.2873,
+      "recall": 0.5076,
+      "f1-score": 0.3669,
+      "support": 262.0
+    },
+    "especial": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1-score": 0.0,
+      "support": 9.0
+    },
+    "esporte": {
+      "precision": 0.9085,
+      "recall": 0.8885,
+      "f1-score": 0.8984,
+      "support": 3946.0
+    },
+    "folhinha": {
+      "precision": 0.4411,
+      "recall": 0.6629,
+      "f1-score": 0.5297,
+      "support": 175.0
+    },
+    "guia-de-livros-discos-filmes": {
+      "precision": 0.2143,
+      "recall": 0.3103,
+      "f1-score": 0.2535,
+      "support": 29.0
+    },
+    "guia-de-livros-filmes-discos": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1-score": 0.0,
+      "support": 6.0
+    },
+    "ilustrada": {
+      "precision": 0.7783,
+      "recall": 0.7281,
+      "f1-score": 0.7523,
+      "support": 3269.0
+    },
+    "ilustrissima": {
+      "precision": 0.3158,
+      "recall": 0.4894,
+      "f1-score": 0.3839,
+      "support": 282.0
+    },
+    "infograficos": {
+      "precision": 0.0455,
+      "recall": 0.1111,
+      "f1-score": 0.0645,
+      "support": 9.0
+    },
+    "mercado": {
+      "precision": 0.7662,
+      "recall": 0.7265,
+      "f1-score": 0.7458,
+      "support": 4194.0
+    },
+    "mulher": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1-score": 0.0,
+      "support": 3.0
+    },
+    "multimidia": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1-score": 0.0,
+      "support": 5.0
+    },
+    "mundo": {
+      "precision": 0.7974,
+      "recall": 0.8144,
+      "f1-score": 0.8058,
+      "support": 3426.0
+    },
+    "o-melhor-de-sao-paulo": {
+      "precision": 0.2653,
+      "recall": 0.3421,
+      "f1-score": 0.2989,
+      "support": 38.0
+    },
+    "opiniao": {
+      "precision": 0.3256,
+      "recall": 0.4679,
+      "f1-score": 0.384,
+      "support": 904.0
+    },
+    "paineldoleitor": {
+      "precision": 0.9134,
+      "recall": 0.8815,
+      "f1-score": 0.8972,
+      "support": 802.0
+    },
+    "poder": {
+      "precision": 0.7826,
+      "recall": 0.7977,
+      "f1-score": 0.7901,
+      "support": 4404.0
+    },
+    "rfi": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1-score": 0.0,
+      "support": 6.0
+    },
+    "saopaulo": {
+      "precision": 0.4766,
+      "recall": 0.5525,
+      "f1-score": 0.5117,
+      "support": 791.0
+    },
+    "seminariosfolha": {
+      "precision": 0.25,
+      "recall": 0.4079,
+      "f1-score": 0.31,
+      "support": 76.0
+    },
+    "serafina": {
+      "precision": 0.119,
+      "recall": 0.1493,
+      "f1-score": 0.1325,
+      "support": 67.0
+    },
+    "sobretudo": {
+      "precision": 0.321,
+      "recall": 0.5355,
+      "f1-score": 0.4014,
+      "support": 211.0
+    },
+    "tec": {
+      "precision": 0.4847,
+      "recall": 0.7721,
+      "f1-score": 0.5956,
+      "support": 452.0
+    },
+    "topofmind": {
+      "precision": 0.2727,
+      "recall": 0.3529,
+      "f1-score": 0.3077,
+      "support": 17.0
+    },
+    "treinamento": {
+      "precision": 0.5,
+      "recall": 0.25,
+      "f1-score": 0.3333,
+      "support": 4.0
+    },
+    "treinamentocienciaesaude": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1-score": 0.0,
+      "support": 4.0
+    },
+    "turismo": {
+      "precision": 0.438,
+      "recall": 0.6772,
+      "f1-score": 0.532,
+      "support": 381.0
+    },
+    "tv": {
+      "precision": 0.1873,
+      "recall": 0.2336,
+      "f1-score": 0.2079,
+      "support": 428.0
+    },
+    "vice": {
+      "precision": 0.05,
+      "recall": 0.069,
+      "f1-score": 0.058,
+      "support": 29.0
+    },
+    "accuracy": 0.6871,
+    "macro avg": {
+      "precision": 0.3475,
+      "recall": 0.4036,
+      "f1-score": 0.3649,
+      "support": 33401.0
+    },
+    "weighted avg": {
+      "precision": 0.7079,
+      "recall": 0.6871,
+      "f1-score": 0.6898,
+      "support": 33401.0
+    }
+  },
+  "classification_report_text": "                              precision    recall  f1-score   support\n\n                    ambiente       0.26      0.39      0.31        98\n                      asmais       0.28      0.46      0.35       110\n              banco-de-dados       0.33      0.15      0.21        13\n                         bbc       0.11      0.17      0.14       196\n               cenarios-2017       0.12      0.11      0.12         9\n                     ciencia       0.45      0.52      0.49       267\n                     colunas       0.63      0.35      0.45      4318\n                      comida       0.36      0.53      0.43       166\n                   cotidiano       0.76      0.75      0.76      3393\n                          dw       0.00      0.00      0.00        10\n                    educacao       0.61      0.82      0.70       424\n          empreendedorsocial       0.38      0.55      0.45       168\n            equilibrioesaude       0.29      0.51      0.37       262\n                    especial       0.00      0.00      0.00         9\n                     esporte       0.91      0.89      0.90      3946\n                    folhinha       0.44      0.66      0.53       175\nguia-de-livros-discos-filmes       0.21      0.31      0.25        29\nguia-de-livros-filmes-discos       0.00      0.00      0.00         6\n                   ilustrada       0.78      0.73      0.75      3269\n                ilustrissima       0.32      0.49      0.38       282\n                infograficos       0.05      0.11      0.06         9\n                     mercado       0.77      0.73      0.75      4194\n                      mulher       0.00      0.00      0.00         3\n                  multimidia       0.00      0.00      0.00         5\n                       mundo       0.80      0.81      0.81      3426\n       o-melhor-de-sao-paulo       0.27      0.34      0.30        38\n                     opiniao       0.33      0.47      0.38       904\n              paineldoleitor       0.91      0.88      0.90       802\n                       poder       0.78      0.80      0.79      4404\n                         rfi       0.00      0.00      0.00         6\n                    saopaulo       0.48      0.55      0.51       791\n             seminariosfolha       0.25      0.41      0.31        76\n                    serafina       0.12      0.15      0.13        67\n                   sobretudo       0.32      0.54      0.40       211\n                         tec       0.48      0.77      0.60       452\n                   topofmind       0.27      0.35      0.31        17\n                 treinamento       0.50      0.25      0.33         4\n    treinamentocienciaesaude       0.00      0.00      0.00         4\n                     turismo       0.44      0.68      0.53       381\n                          tv       0.19      0.23      0.21       428\n                        vice       0.05      0.07      0.06        29\n\n                    accuracy                           0.69     33401\n                   macro avg       0.35      0.40      0.36     33401\n                weighted avg       0.71      0.69      0.69     33401\n",
+  "candidate_results": [
+    {
+      "model_type": "logistic_regression",
+      "accuracy": 0.6871,
+      "macro_f1": 0.3649,
+      "weighted_f1": 0.6898,
+      "classification_report": {
+        "ambiente": {
+          "precision": 0.2585,
+          "recall": 0.3878,
+          "f1-score": 0.3102,
+          "support": 98.0
+        },
+        "asmais": {
+          "precision": 0.2802,
+          "recall": 0.4636,
+          "f1-score": 0.3493,
+          "support": 110.0
+        },
+        "banco-de-dados": {
+          "precision": 0.3333,
+          "recall": 0.1538,
+          "f1-score": 0.2105,
+          "support": 13.0
+        },
+        "bbc": {
+          "precision": 0.1145,
+          "recall": 0.1735,
+          "f1-score": 0.1379,
+          "support": 196.0
+        },
+        "cenarios-2017": {
+          "precision": 0.125,
+          "recall": 0.1111,
+          "f1-score": 0.1176,
+          "support": 9.0
+        },
+        "ciencia": {
+          "precision": 0.4542,
+          "recall": 0.5206,
+          "f1-score": 0.4852,
+          "support": 267.0
+        },
+        "colunas": {
+          "precision": 0.6275,
+          "recall": 0.3516,
+          "f1-score": 0.4506,
+          "support": 4318.0
+        },
+        "comida": {
+          "precision": 0.3592,
+          "recall": 0.5301,
+          "f1-score": 0.4282,
+          "support": 166.0
+        },
+        "cotidiano": {
+          "precision": 0.7647,
+          "recall": 0.7527,
+          "f1-score": 0.7587,
+          "support": 3393.0
+        },
+        "dw": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1-score": 0.0,
+          "support": 10.0
+        },
+        "educacao": {
+          "precision": 0.6112,
+          "recall": 0.8231,
+          "f1-score": 0.7015,
+          "support": 424.0
+        },
+        "empreendedorsocial": {
+          "precision": 0.378,
+          "recall": 0.5536,
+          "f1-score": 0.4493,
+          "support": 168.0
+        },
+        "equilibrioesaude": {
+          "precision": 0.2873,
+          "recall": 0.5076,
+          "f1-score": 0.3669,
+          "support": 262.0
+        },
+        "especial": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1-score": 0.0,
+          "support": 9.0
+        },
+        "esporte": {
+          "precision": 0.9085,
+          "recall": 0.8885,
+          "f1-score": 0.8984,
+          "support": 3946.0
+        },
+        "folhinha": {
+          "precision": 0.4411,
+          "recall": 0.6629,
+          "f1-score": 0.5297,
+          "support": 175.0
+        },
+        "guia-de-livros-discos-filmes": {
+          "precision": 0.2143,
+          "recall": 0.3103,
+          "f1-score": 0.2535,
+          "support": 29.0
+        },
+        "guia-de-livros-filmes-discos": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1-score": 0.0,
+          "support": 6.0
+        },
+        "ilustrada": {
+          "precision": 0.7783,
+          "recall": 0.7281,
+          "f1-score": 0.7523,
+          "support": 3269.0
+        },
+        "ilustrissima": {
+          "precision": 0.3158,
+          "recall": 0.4894,
+          "f1-score": 0.3839,
+          "support": 282.0
+        },
+        "infograficos": {
+          "precision": 0.0455,
+          "recall": 0.1111,
+          "f1-score": 0.0645,
+          "support": 9.0
+        },
+        "mercado": {
+          "precision": 0.7662,
+          "recall": 0.7265,
+          "f1-score": 0.7458,
+          "support": 4194.0
+        },
+        "mulher": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1-score": 0.0,
+          "support": 3.0
+        },
+        "multimidia": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1-score": 0.0,
+          "support": 5.0
+        },
+        "mundo": {
+          "precision": 0.7974,
+          "recall": 0.8144,
+          "f1-score": 0.8058,
+          "support": 3426.0
+        },
+        "o-melhor-de-sao-paulo": {
+          "precision": 0.2653,
+          "recall": 0.3421,
+          "f1-score": 0.2989,
+          "support": 38.0
+        },
+        "opiniao": {
+          "precision": 0.3256,
+          "recall": 0.4679,
+          "f1-score": 0.384,
+          "support": 904.0
+        },
+        "paineldoleitor": {
+          "precision": 0.9134,
+          "recall": 0.8815,
+          "f1-score": 0.8972,
+          "support": 802.0
+        },
+        "poder": {
+          "precision": 0.7826,
+          "recall": 0.7977,
+          "f1-score": 0.7901,
+          "support": 4404.0
+        },
+        "rfi": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1-score": 0.0,
+          "support": 6.0
+        },
+        "saopaulo": {
+          "precision": 0.4766,
+          "recall": 0.5525,
+          "f1-score": 0.5117,
+          "support": 791.0
+        },
+        "seminariosfolha": {
+          "precision": 0.25,
+          "recall": 0.4079,
+          "f1-score": 0.31,
+          "support": 76.0
+        },
+        "serafina": {
+          "precision": 0.119,
+          "recall": 0.1493,
+          "f1-score": 0.1325,
+          "support": 67.0
+        },
+        "sobretudo": {
+          "precision": 0.321,
+          "recall": 0.5355,
+          "f1-score": 0.4014,
+          "support": 211.0
+        },
+        "tec": {
+          "precision": 0.4847,
+          "recall": 0.7721,
+          "f1-score": 0.5956,
+          "support": 452.0
+        },
+        "topofmind": {
+          "precision": 0.2727,
+          "recall": 0.3529,
+          "f1-score": 0.3077,
+          "support": 17.0
+        },
+        "treinamento": {
+          "precision": 0.5,
+          "recall": 0.25,
+          "f1-score": 0.3333,
+          "support": 4.0
+        },
+        "treinamentocienciaesaude": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1-score": 0.0,
+          "support": 4.0
+        },
+        "turismo": {
+          "precision": 0.438,
+          "recall": 0.6772,
+          "f1-score": 0.532,
+          "support": 381.0
+        },
+        "tv": {
+          "precision": 0.1873,
+          "recall": 0.2336,
+          "f1-score": 0.2079,
+          "support": 428.0
+        },
+        "vice": {
+          "precision": 0.05,
+          "recall": 0.069,
+          "f1-score": 0.058,
+          "support": 29.0
+        },
+        "accuracy": 0.6871,
+        "macro avg": {
+          "precision": 0.3475,
+          "recall": 0.4036,
+          "f1-score": 0.3649,
+          "support": 33401.0
+        },
+        "weighted avg": {
+          "precision": 0.7079,
+          "recall": 0.6871,
+          "f1-score": 0.6898,
+          "support": 33401.0
+        }
+      },
+      "classification_report_text": "                              precision    recall  f1-score   support\n\n                    ambiente       0.26      0.39      0.31        98\n                      asmais       0.28      0.46      0.35       110\n              banco-de-dados       0.33      0.15      0.21        13\n                         bbc       0.11      0.17      0.14       196\n               cenarios-2017       0.12      0.11      0.12         9\n                     ciencia       0.45      0.52      0.49       267\n                     colunas       0.63      0.35      0.45      4318\n                      comida       0.36      0.53      0.43       166\n                   cotidiano       0.76      0.75      0.76      3393\n                          dw       0.00      0.00      0.00        10\n                    educacao       0.61      0.82      0.70       424\n          empreendedorsocial       0.38      0.55      0.45       168\n            equilibrioesaude       0.29      0.51      0.37       262\n                    especial       0.00      0.00      0.00         9\n                     esporte       0.91      0.89      0.90      3946\n                    folhinha       0.44      0.66      0.53       175\nguia-de-livros-discos-filmes       0.21      0.31      0.25        29\nguia-de-livros-filmes-discos       0.00      0.00      0.00         6\n                   ilustrada       0.78      0.73      0.75      3269\n                ilustrissima       0.32      0.49      0.38       282\n                infograficos       0.05      0.11      0.06         9\n                     mercado       0.77      0.73      0.75      4194\n                      mulher       0.00      0.00      0.00         3\n                  multimidia       0.00      0.00      0.00         5\n                       mundo       0.80      0.81      0.81      3426\n       o-melhor-de-sao-paulo       0.27      0.34      0.30        38\n                     opiniao       0.33      0.47      0.38       904\n              paineldoleitor       0.91      0.88      0.90       802\n                       poder       0.78      0.80      0.79      4404\n                         rfi       0.00      0.00      0.00         6\n                    saopaulo       0.48      0.55      0.51       791\n             seminariosfolha       0.25      0.41      0.31        76\n                    serafina       0.12      0.15      0.13        67\n                   sobretudo       0.32      0.54      0.40       211\n                         tec       0.48      0.77      0.60       452\n                   topofmind       0.27      0.35      0.31        17\n                 treinamento       0.50      0.25      0.33         4\n    treinamentocienciaesaude       0.00      0.00      0.00         4\n                     turismo       0.44      0.68      0.53       381\n                          tv       0.19      0.23      0.21       428\n                        vice       0.05      0.07      0.06        29\n\n                    accuracy                           0.69     33401\n                   macro avg       0.35      0.40      0.36     33401\n                weighted avg       0.71      0.69      0.69     33401\n"
+    },
+    {
+      "model_type": "complement_nb",
+      "accuracy": 0.6952,
+      "macro_f1": 0.3077,
+      "weighted_f1": 0.6645,
+      "classification_report": {
+        "ambiente": {
+          "precision": 0.1597,
+          "recall": 0.1939,
+          "f1-score": 0.1751,
+          "support": 98.0
+        },
+        "asmais": {
+          "precision": 0.4286,
+          "recall": 0.0545,
+          "f1-score": 0.0968,
+          "support": 110.0
+        },
+        "banco-de-dados": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1-score": 0.0,
+          "support": 13.0
+        },
+        "bbc": {
+          "precision": 0.0625,
+          "recall": 0.0051,
+          "f1-score": 0.0094,
+          "support": 196.0
+        },
+        "cenarios-2017": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1-score": 0.0,
+          "support": 9.0
+        },
+        "ciencia": {
+          "precision": 0.5686,
+          "recall": 0.4345,
+          "f1-score": 0.4926,
+          "support": 267.0
+        },
+        "colunas": {
+          "precision": 0.6132,
+          "recall": 0.308,
+          "f1-score": 0.4101,
+          "support": 4318.0
+        },
+        "comida": {
+          "precision": 0.4824,
+          "recall": 0.247,
+          "f1-score": 0.3267,
+          "support": 166.0
+        },
+        "cotidiano": {
+          "precision": 0.6838,
+          "recall": 0.8096,
+          "f1-score": 0.7414,
+          "support": 3393.0
+        },
+        "dw": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1-score": 0.0,
+          "support": 10.0
+        },
+        "educacao": {
+          "precision": 0.6543,
+          "recall": 0.7099,
+          "f1-score": 0.681,
+          "support": 424.0
+        },
+        "empreendedorsocial": {
+          "precision": 0.5339,
+          "recall": 0.375,
+          "f1-score": 0.4406,
+          "support": 168.0
+        },
+        "equilibrioesaude": {
+          "precision": 0.4819,
+          "recall": 0.355,
+          "f1-score": 0.4088,
+          "support": 262.0
+        },
+        "especial": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1-score": 0.0,
+          "support": 9.0
+        },
+        "esporte": {
+          "precision": 0.8204,
+          "recall": 0.9493,
+          "f1-score": 0.8802,
+          "support": 3946.0
+        },
+        "folhinha": {
+          "precision": 0.5789,
+          "recall": 0.3143,
+          "f1-score": 0.4074,
+          "support": 175.0
+        },
+        "guia-de-livros-discos-filmes": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1-score": 0.0,
+          "support": 29.0
+        },
+        "guia-de-livros-filmes-discos": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1-score": 0.0,
+          "support": 6.0
+        },
+        "ilustrada": {
+          "precision": 0.6659,
+          "recall": 0.8626,
+          "f1-score": 0.7516,
+          "support": 3269.0
+        },
+        "ilustrissima": {
+          "precision": 0.7589,
+          "recall": 0.3794,
+          "f1-score": 0.5059,
+          "support": 282.0
+        },
+        "infograficos": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1-score": 0.0,
+          "support": 9.0
+        },
+        "mercado": {
+          "precision": 0.68,
+          "recall": 0.8062,
+          "f1-score": 0.7377,
+          "support": 4194.0
+        },
+        "mulher": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1-score": 0.0,
+          "support": 3.0
+        },
+        "multimidia": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1-score": 0.0,
+          "support": 5.0
+        },
+        "mundo": {
+          "precision": 0.7302,
+          "recall": 0.8689,
+          "f1-score": 0.7935,
+          "support": 3426.0
+        },
+        "o-melhor-de-sao-paulo": {
+          "precision": 0.4545,
+          "recall": 0.1316,
+          "f1-score": 0.2041,
+          "support": 38.0
+        },
+        "opiniao": {
+          "precision": 0.5227,
+          "recall": 0.1527,
+          "f1-score": 0.2363,
+          "support": 904.0
+        },
+        "paineldoleitor": {
+          "precision": 0.8532,
+          "recall": 0.8554,
+          "f1-score": 0.8543,
+          "support": 802.0
+        },
+        "poder": {
+          "precision": 0.7061,
+          "recall": 0.8569,
+          "f1-score": 0.7742,
+          "support": 4404.0
+        },
+        "rfi": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1-score": 0.0,
+          "support": 6.0
+        },
+        "saopaulo": {
+          "precision": 0.5399,
+          "recall": 0.4273,
+          "f1-score": 0.4771,
+          "support": 791.0
+        },
+        "seminariosfolha": {
+          "precision": 0.6562,
+          "recall": 0.2763,
+          "f1-score": 0.3889,
+          "support": 76.0
+        },
+        "serafina": {
+          "precision": 0.5,
+          "recall": 0.0299,
+          "f1-score": 0.0563,
+          "support": 67.0
+        },
+        "sobretudo": {
+          "precision": 0.5417,
+          "recall": 0.1848,
+          "f1-score": 0.2756,
+          "support": 211.0
+        },
+        "tec": {
+          "precision": 0.6036,
+          "recall": 0.5221,
+          "f1-score": 0.5599,
+          "support": 452.0
+        },
+        "topofmind": {
+          "precision": 0.5,
+          "recall": 0.2941,
+          "f1-score": 0.3704,
+          "support": 17.0
+        },
+        "treinamento": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1-score": 0.0,
+          "support": 4.0
+        },
+        "treinamentocienciaesaude": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1-score": 0.0,
+          "support": 4.0
+        },
+        "turismo": {
+          "precision": 0.4803,
+          "recall": 0.3517,
+          "f1-score": 0.4061,
+          "support": 381.0
+        },
+        "tv": {
+          "precision": 0.5132,
+          "recall": 0.0911,
+          "f1-score": 0.1548,
+          "support": 428.0
+        },
+        "vice": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1-score": 0.0,
+          "support": 29.0
+        },
+        "accuracy": 0.6952,
+        "macro avg": {
+          "precision": 0.3847,
+          "recall": 0.289,
+          "f1-score": 0.3077,
+          "support": 33401.0
+        },
+        "weighted avg": {
+          "precision": 0.6719,
+          "recall": 0.6952,
+          "f1-score": 0.6645,
+          "support": 33401.0
+        }
+      },
+      "classification_report_text": "                              precision    recall  f1-score   support\n\n                    ambiente       0.16      0.19      0.18        98\n                      asmais       0.43      0.05      0.10       110\n              banco-de-dados       0.00      0.00      0.00        13\n                         bbc       0.06      0.01      0.01       196\n               cenarios-2017       0.00      0.00      0.00         9\n                     ciencia       0.57      0.43      0.49       267\n                     colunas       0.61      0.31      0.41      4318\n                      comida       0.48      0.25      0.33       166\n                   cotidiano       0.68      0.81      0.74      3393\n                          dw       0.00      0.00      0.00        10\n                    educacao       0.65      0.71      0.68       424\n          empreendedorsocial       0.53      0.38      0.44       168\n            equilibrioesaude       0.48      0.35      0.41       262\n                    especial       0.00      0.00      0.00         9\n                     esporte       0.82      0.95      0.88      3946\n                    folhinha       0.58      0.31      0.41       175\nguia-de-livros-discos-filmes       0.00      0.00      0.00        29\nguia-de-livros-filmes-discos       0.00      0.00      0.00         6\n                   ilustrada       0.67      0.86      0.75      3269\n                ilustrissima       0.76      0.38      0.51       282\n                infograficos       0.00      0.00      0.00         9\n                     mercado       0.68      0.81      0.74      4194\n                      mulher       0.00      0.00      0.00         3\n                  multimidia       0.00      0.00      0.00         5\n                       mundo       0.73      0.87      0.79      3426\n       o-melhor-de-sao-paulo       0.45      0.13      0.20        38\n                     opiniao       0.52      0.15      0.24       904\n              paineldoleitor       0.85      0.86      0.85       802\n                       poder       0.71      0.86      0.77      4404\n                         rfi       0.00      0.00      0.00         6\n                    saopaulo       0.54      0.43      0.48       791\n             seminariosfolha       0.66      0.28      0.39        76\n                    serafina       0.50      0.03      0.06        67\n                   sobretudo       0.54      0.18      0.28       211\n                         tec       0.60      0.52      0.56       452\n                   topofmind       0.50      0.29      0.37        17\n                 treinamento       0.00      0.00      0.00         4\n    treinamentocienciaesaude       0.00      0.00      0.00         4\n                     turismo       0.48      0.35      0.41       381\n                          tv       0.51      0.09      0.15       428\n                        vice       0.00      0.00      0.00        29\n\n                    accuracy                           0.70     33401\n                   macro avg       0.38      0.29      0.31     33401\n                weighted avg       0.67      0.70      0.66     33401\n"
+    },
+    {
+      "model_type": "naive_bayes",
+      "accuracy": 0.6635,
+      "macro_f1": 0.1781,
+      "weighted_f1": 0.6145,
+      "classification_report": {
+        "ambiente": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1-score": 0.0,
+          "support": 98.0
+        },
+        "asmais": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1-score": 0.0,
+          "support": 110.0
+        },
+        "banco-de-dados": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1-score": 0.0,
+          "support": 13.0
+        },
+        "bbc": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1-score": 0.0,
+          "support": 196.0
+        },
+        "cenarios-2017": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1-score": 0.0,
+          "support": 9.0
+        },
+        "ciencia": {
+          "precision": 0.9375,
+          "recall": 0.0562,
+          "f1-score": 0.106,
+          "support": 267.0
+        },
+        "colunas": {
+          "precision": 0.4527,
+          "recall": 0.4618,
+          "f1-score": 0.4572,
+          "support": 4318.0
+        },
+        "comida": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1-score": 0.0,
+          "support": 166.0
+        },
+        "cotidiano": {
+          "precision": 0.6532,
+          "recall": 0.8123,
+          "f1-score": 0.7241,
+          "support": 3393.0
+        },
+        "dw": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1-score": 0.0,
+          "support": 10.0
+        },
+        "educacao": {
+          "precision": 0.8571,
+          "recall": 0.1981,
+          "f1-score": 0.3218,
+          "support": 424.0
+        },
+        "empreendedorsocial": {
+          "precision": 1.0,
+          "recall": 0.0357,
+          "f1-score": 0.069,
+          "support": 168.0
+        },
+        "equilibrioesaude": {
+          "precision": 1.0,
+          "recall": 0.0153,
+          "f1-score": 0.0301,
+          "support": 262.0
+        },
+        "especial": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1-score": 0.0,
+          "support": 9.0
+        },
+        "esporte": {
+          "precision": 0.8446,
+          "recall": 0.9184,
+          "f1-score": 0.8799,
+          "support": 3946.0
+        },
+        "folhinha": {
+          "precision": 1.0,
+          "recall": 0.0743,
+          "f1-score": 0.1383,
+          "support": 175.0
+        },
+        "guia-de-livros-discos-filmes": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1-score": 0.0,
+          "support": 29.0
+        },
+        "guia-de-livros-filmes-discos": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1-score": 0.0,
+          "support": 6.0
+        },
+        "ilustrada": {
+          "precision": 0.6507,
+          "recall": 0.8354,
+          "f1-score": 0.7316,
+          "support": 3269.0
+        },
+        "ilustrissima": {
+          "precision": 1.0,
+          "recall": 0.1631,
+          "f1-score": 0.2805,
+          "support": 282.0
+        },
+        "infograficos": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1-score": 0.0,
+          "support": 9.0
+        },
+        "mercado": {
+          "precision": 0.6191,
+          "recall": 0.8331,
+          "f1-score": 0.7103,
+          "support": 4194.0
+        },
+        "mulher": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1-score": 0.0,
+          "support": 3.0
+        },
+        "multimidia": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1-score": 0.0,
+          "support": 5.0
+        },
+        "mundo": {
+          "precision": 0.7376,
+          "recall": 0.8581,
+          "f1-score": 0.7933,
+          "support": 3426.0
+        },
+        "o-melhor-de-sao-paulo": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1-score": 0.0,
+          "support": 38.0
+        },
+        "opiniao": {
+          "precision": 0.9459,
+          "recall": 0.0387,
+          "f1-score": 0.0744,
+          "support": 904.0
+        },
+        "paineldoleitor": {
+          "precision": 0.9811,
+          "recall": 0.4539,
+          "f1-score": 0.6206,
+          "support": 802.0
+        },
+        "poder": {
+          "precision": 0.6611,
+          "recall": 0.869,
+          "f1-score": 0.7509,
+          "support": 4404.0
+        },
+        "rfi": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1-score": 0.0,
+          "support": 6.0
+        },
+        "saopaulo": {
+          "precision": 0.7757,
+          "recall": 0.2099,
+          "f1-score": 0.3303,
+          "support": 791.0
+        },
+        "seminariosfolha": {
+          "precision": 1.0,
+          "recall": 0.0132,
+          "f1-score": 0.026,
+          "support": 76.0
+        },
+        "serafina": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1-score": 0.0,
+          "support": 67.0
+        },
+        "sobretudo": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1-score": 0.0,
+          "support": 211.0
+        },
+        "tec": {
+          "precision": 0.9535,
+          "recall": 0.0907,
+          "f1-score": 0.1657,
+          "support": 452.0
+        },
+        "topofmind": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1-score": 0.0,
+          "support": 17.0
+        },
+        "treinamento": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1-score": 0.0,
+          "support": 4.0
+        },
+        "treinamentocienciaesaude": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1-score": 0.0,
+          "support": 4.0
+        },
+        "turismo": {
+          "precision": 0.8462,
+          "recall": 0.0289,
+          "f1-score": 0.0558,
+          "support": 381.0
+        },
+        "tv": {
+          "precision": 1.0,
+          "recall": 0.0187,
+          "f1-score": 0.0367,
+          "support": 428.0
+        },
+        "vice": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1-score": 0.0,
+          "support": 29.0
+        },
+        "accuracy": 0.6635,
+        "macro avg": {
+          "precision": 0.4126,
+          "recall": 0.1704,
+          "f1-score": 0.1781,
+          "support": 33401.0
+        },
+        "weighted avg": {
+          "precision": 0.679,
+          "recall": 0.6635,
+          "f1-score": 0.6145,
+          "support": 33401.0
+        }
+      },
+      "classification_report_text": "                              precision    recall  f1-score   support\n\n                    ambiente       0.00      0.00      0.00        98\n                      asmais       0.00      0.00      0.00       110\n              banco-de-dados       0.00      0.00      0.00        13\n                         bbc       0.00      0.00      0.00       196\n               cenarios-2017       0.00      0.00      0.00         9\n                     ciencia       0.94      0.06      0.11       267\n                     colunas       0.45      0.46      0.46      4318\n                      comida       0.00      0.00      0.00       166\n                   cotidiano       0.65      0.81      0.72      3393\n                          dw       0.00      0.00      0.00        10\n                    educacao       0.86      0.20      0.32       424\n          empreendedorsocial       1.00      0.04      0.07       168\n            equilibrioesaude       1.00      0.02      0.03       262\n                    especial       0.00      0.00      0.00         9\n                     esporte       0.84      0.92      0.88      3946\n                    folhinha       1.00      0.07      0.14       175\nguia-de-livros-discos-filmes       0.00      0.00      0.00        29\nguia-de-livros-filmes-discos       0.00      0.00      0.00         6\n                   ilustrada       0.65      0.84      0.73      3269\n                ilustrissima       1.00      0.16      0.28       282\n                infograficos       0.00      0.00      0.00         9\n                     mercado       0.62      0.83      0.71      4194\n                      mulher       0.00      0.00      0.00         3\n                  multimidia       0.00      0.00      0.00         5\n                       mundo       0.74      0.86      0.79      3426\n       o-melhor-de-sao-paulo       0.00      0.00      0.00        38\n                     opiniao       0.95      0.04      0.07       904\n              paineldoleitor       0.98      0.45      0.62       802\n                       poder       0.66      0.87      0.75      4404\n                         rfi       0.00      0.00      0.00         6\n                    saopaulo       0.78      0.21      0.33       791\n             seminariosfolha       1.00      0.01      0.03        76\n                    serafina       0.00      0.00      0.00        67\n                   sobretudo       0.00      0.00      0.00       211\n                         tec       0.95      0.09      0.17       452\n                   topofmind       0.00      0.00      0.00        17\n                 treinamento       0.00      0.00      0.00         4\n    treinamentocienciaesaude       0.00      0.00      0.00         4\n                     turismo       0.85      0.03      0.06       381\n                          tv       1.00      0.02      0.04       428\n                        vice       0.00      0.00      0.00        29\n\n                    accuracy                           0.66     33401\n                   macro avg       0.41      0.17      0.18     33401\n                weighted avg       0.68      0.66      0.61     33401\n"
+    }
+  ],
+  "classes": [
+    "ambiente",
+    "asmais",
+    "banco-de-dados",
+    "bbc",
+    "cenarios-2017",
+    "ciencia",
+    "colunas",
+    "comida",
+    "cotidiano",
+    "dw",
+    "educacao",
+    "empreendedorsocial",
+    "equilibrioesaude",
+    "especial",
+    "esporte",
+    "folhinha",
+    "guia-de-livros-discos-filmes",
+    "guia-de-livros-filmes-discos",
+    "ilustrada",
+    "ilustrissima",
+    "infograficos",
+    "mercado",
+    "mulher",
+    "multimidia",
+    "mundo",
+    "o-melhor-de-sao-paulo",
+    "opiniao",
+    "paineldoleitor",
+    "poder",
+    "rfi",
+    "saopaulo",
+    "seminariosfolha",
+    "serafina",
+    "sobretudo",
+    "tec",
+    "topofmind",
+    "treinamento",
+    "treinamentocienciaesaude",
+    "turismo",
+    "tv",
+    "vice"
+  ],
+  "vocabulary_size": 114161,
+  "vectorizer_config": {
+    "ngram_range": [
+      1,
+      2
+    ],
+    "min_df": 2,
+    "max_df": 0.98,
+    "sublinear_tf": true
+  },
+  "data_summary": {
+    "dataset_path": "data\\raw\\articles.csv",
+    "raw_samples": 167053,
+    "sampled_samples": 167053,
+    "active_samples_after_preprocess": 167001,
+    "raw_classes": 48,
+    "sampled_classes": 48,
+    "active_classes": 41,
+    "min_class_frequency": 10,
+    "filtered_out_samples": 17,
+    "filtered_out_classes": {
+      "2015": 1,
+      "2016": 1,
+      "bichos": 1,
+      "contas-de-casa": 2,
+      "euronews": 8,
+      "musica": 1,
+      "ombudsman": 3
+    },
+    "top_active_classes": [
+      {
+        "categoria": "poder",
+        "amostras": 22022
+      },
+      {
+        "categoria": "colunas",
+        "amostras": 21592
+      },
+      {
+        "categoria": "mercado",
+        "amostras": 20970
+      },
+      {
+        "categoria": "esporte",
+        "amostras": 19730
+      },
+      {
+        "categoria": "mundo",
+        "amostras": 17130
+      },
+      {
+        "categoria": "cotidiano",
+        "amostras": 16967
+      },
+      {
+        "categoria": "ilustrada",
+        "amostras": 16345
+      },
+      {
+        "categoria": "opiniao",
+        "amostras": 4520
+      },
+      {
+        "categoria": "paineldoleitor",
+        "amostras": 4011
+      },
+      {
+        "categoria": "saopaulo",
+        "amostras": 3955
+      },
+      {
+        "categoria": "tec",
+        "amostras": 2260
+      },
+      {
+        "categoria": "tv",
+        "amostras": 2142
+      },
+      {
+        "categoria": "educacao",
+        "amostras": 2118
+      },
+      {
+        "categoria": "turismo",
+        "amostras": 1903
+      },
+      {
+        "categoria": "ilustrissima",
+        "amostras": 1411
+      }
+    ]
+  },
+  "training_config": {
+    "dataset_path": "data\\raw\\articles.csv",
+    "model_output_path": "models\\model.joblib",
+    "metrics_output_path": "models\\news_classifier_metrics.json",
+    "text_column": null,
+    "target_column": null,
+    "max_samples": null,
+    "model_type": "auto",
+    "min_class_frequency": null,
+    "test_size": 0.2,
+    "seed": 42
+  }
+}

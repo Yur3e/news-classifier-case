@@ -1,0 +1,171 @@
+{
+  "model": {
+    "classes": [
+      "cultura",
+      "economia",
+      "esportes",
+      "politica",
+      "tecnologia"
+    ],
+    "class_doc_counts": {
+      "economia": 2,
+      "esportes": 2,
+      "politica": 2,
+      "tecnologia": 2,
+      "cultura": 2
+    },
+    "class_token_totals": {
+      "economia": 15,
+      "esportes": 20,
+      "politica": 15,
+      "tecnologia": 16,
+      "cultura": 16
+    },
+    "token_counts": {
+      "economia": {
+        "governo": 1,
+        "anuncia": 1,
+        "novo": 1,
+        "pacote": 1,
+        "fiscal": 1,
+        "para": 1,
+        "reduzir": 1,
+        "despesas": 1,
+        "exportacoes": 1,
+        "brasileiras": 1,
+        "registram": 1,
+        "alta": 1,
+        "no": 1,
+        "primeiro": 1,
+        "trimestre": 1
+      },
+      "esportes": {
+        "treinador": 1,
+        "define": 1,
+        "elenco": 1,
+        "para": 2,
+        "a": 2,
+        "estreia": 1,
+        "no": 1,
+        "torneio": 1,
+        "continental": 1,
+        "time": 1,
+        "vence": 1,
+        "nos": 1,
+        "penaltis": 1,
+        "e": 1,
+        "avanca": 1,
+        "final": 1,
+        "do": 1,
+        "campeonato": 1
+      },
+      "politica": {
+        "partidos": 1,
+        "iniciam": 1,
+        "articulacao": 1,
+        "para": 1,
+        "as": 1,
+        "proximas": 1,
+        "eleicoes": 1,
+        "congresso": 1,
+        "aprova": 1,
+        "projeto": 1,
+        "de": 1,
+        "lei": 1,
+        "apos": 1,
+        "intensa": 1,
+        "negociacao": 1
+      },
+      "tecnologia": {
+        "fabricante": 1,
+        "apresenta": 1,
+        "novo": 1,
+        "smartphone": 1,
+        "com": 1,
+        "foco": 1,
+        "em": 1,
+        "seguranca": 1,
+        "empresa": 1,
+        "lanca": 1,
+        "ferramenta": 1,
+        "de": 1,
+        "inteligencia": 1,
+        "artificial": 1,
+        "para": 1,
+        "atendimento": 1
+      },
+      "cultura": {
+        "festival": 1,
+        "de": 1,
+        "cinema": 1,
+        "brasileiro": 1,
+        "anuncia": 1,
+        "filmes": 1,
+        "premiados": 1,
+        "cantora": 1,
+        "divulga": 1,
+        "turne": 1,
+        "nacional": 1,
+        "com": 1,
+        "shows": 1,
+        "em": 1,
+        "cinco": 1,
+        "capitais": 1
+      }
+    },
+    "vocabulary_size": 70,
+    "total_documents": 10
+  },
+  "metadata": {
+    "trained_at": "2026-07-10T21:01:09.241524+00:00",
+    "dataset_path": "data\\sample\\news_sample.csv",
+    "text_column": "titulo",
+    "target_column": "categoria",
+    "total_samples": 15,
+    "total_classes": 5,
+    "classes": [
+      "cultura",
+      "economia",
+      "esportes",
+      "politica",
+      "tecnologia"
+    ],
+    "accuracy": 0.0,
+    "used_holdout": true
+  },
+  "classification_report": {
+    "accuracy": 0.0,
+    "per_class": {
+      "economia": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1_score": 0.0,
+        "support": 1
+      },
+      "politica": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1_score": 0.0,
+        "support": 1
+      },
+      "esportes": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1_score": 0.0,
+        "support": 1
+      },
+      "cultura": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1_score": 0.0,
+        "support": 1
+      },
+      "tecnologia": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1_score": 0.0,
+        "support": 1
+      }
+    }
+  }
+}
